@@ -1,9 +1,10 @@
-import './App.css';
+import { Button } from '@mui/material';
+import Views from './components/Views';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div>
+      <Views/>
     </div>
   );
 }
